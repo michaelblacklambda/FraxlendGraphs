@@ -3,6 +3,13 @@ matplotlib==3.8.2
 numpy==1.26.2
 seaborn==0.13.0
 requests==2.31.0
-ipywidgets>=8.0.0
-notebook>=7.0.0
-ipython>=8.0.0 
+ipywidgets==8.1.1
+notebook==7.0.6
+ipython==8.18.1
+jupyterlab==4.0.9
+nbformat==5.9.2
+voila==0.5.5
+jupyter_client==8.6.0
+jupyter_core==5.5.0
+jupyter_server==2.12.1
+nbconvert==7.12.0 
