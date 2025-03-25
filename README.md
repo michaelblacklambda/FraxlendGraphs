@@ -1,58 +1,13 @@
-# Fraxlend Market Analysis
+# Fraxlend sfrxUSD vs. frxUSD comparisons
+This repository contains a Jupyter notebook that compares Fraxlend sfrxUSD and frxUSD asset markets at configurable utilization rates, borrow rates, lending rates, and sfrxUSD rates.
 
-This Python project visualizes lending rates across different markets based on utilization rates. It provides tools to analyze and compare lending rates using interactive graphs and data visualization.
+The goal of this repository to allow users to easily visualize the lending efficiency gains gained from switching to sfrxUSD markets exclusively.
+The easiest way to run this repository without downloading any code is on MyBinder: https://mybinder.org/
 
-## Interactive Notebook
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main?labpath=FraxlendAnalysis.ipynb)
+# Next Steps
+The under-development YieldTokenHelpers project, https://github.com/MichaelHenry32/YieldTokenHelpers, aims to create a maximally IFraxlendPair compatible wrapper around sfrxUSD to make UI visualization migrations trival. Of note, the YieldTokenHelpers will not be able to interact with the various "write" borrow methods.
 
-Click the Binder badge above to launch an interactive version of the notebook!
 
-## Local Setup
-
-1. Create a virtual environment (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## Project Structure
-
-- `src/` - Contains the main source code
-  - `data_fetcher.py` - Functions for fetching market data
-  - `visualization.py` - Functions for creating graphs and visualizations
-  - `main.py` - Main script to run the analysis
-- `FraxlendAnalysis.ipynb` - Interactive Jupyter notebook with visualizations
-- `create_notebook.py` - Script to generate the Jupyter notebook
-
-## Deployment Options
-
-### 1. Binder (Recommended)
-- Click the Binder badge above
-- No installation required
-- Runs directly in your browser
-
-### 2. Google Colab
-1. Upload `FraxlendAnalysis.ipynb` to Google Drive
-2. Open with Google Colab
-3. Upload the `src` folder to the Colab runtime
-4. Run all cells
-
-### 3. Local Jupyter Server
-1. Follow the Local Setup instructions above
-2. Run `jupyter notebook`
-3. Open `FraxlendAnalysis.ipynb`
-
-## Usage
-
-Run the main script:
-```bash
-python src/main.py
-```
-
-This will generate graphs showing the relationship between utilization rates and lending rates across different markets. 
+# Disclaimer
+Outside of the algorithms, the following code was mostly AI-generated and is not suitable for a production environment
